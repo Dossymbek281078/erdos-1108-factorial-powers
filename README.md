@@ -8,12 +8,16 @@ Problem (erdosproblems.com/1108): A = { sum over n in S of n! : S a finite set o
 
 | Claim | Bound | Previously stated |
 |---|---|---|
-| The only squares in A are the 16 known ones (OEIS A025494, largest 1183893² = 1401602635449) | below 81! ≈ 5.80·10¹²⁰ | 48! ≈ 1.24·10⁶¹ (J. E. Schoenfield, 2006) |
+| The only squares in A are the 16 known ones (OEIS A025494, largest 1183893² = 1401602635449) | below 81! ≈ 5.80·10¹²⁰ | ≈ 1.85·10¹¹¹ (just below 76!), from a(16) > 4.3·10⁵⁵ in OEIS A014597 (B. Dobbelaere, 2020); earlier 48! (J. E. Schoenfield, 2006) |
 | The only p-th powers (p an odd prime) in A are 8, 27, 32, 128, 729 | below 101! ≈ 9.43·10¹⁵⁹ | — |
 
 Every perfect power is a square or a p-th power for some odd prime p. So the perfect powers in A below 81! are exactly the 16 squares together with 8, 27, 32 and 128 (729 = 27² is among the squares).
 
 Not covered: powerful numbers (OEIS A115645), because a powerful number need not be a perfect power.
+
+## Correction (7 Nov 2026)
+
+The first version of this README gave 48! (Schoenfield, 2006) as the previous bound for squares. OEIS A014597 also records a(16) > 4.3·10⁵⁵ (Dobbelaere, 2020), i.e. squares are known to be absent below ≈ 1.85·10¹¹¹. The improvement here is from ≈ 1.85·10¹¹¹ to 81! ≈ 5.80·10¹²⁰. The computations and logs are unchanged.
 
 ## Method
 
